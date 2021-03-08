@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* CABEÇALHO ***************/
+
+#box-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    background-color: #BDAFCC;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    text-align: center;
+
+    height: 80vh;
+    
+}
+
+header img {
+    width: 300px;
+    opacity: 0.8;
+}
+
+.btn-branco {
+    color: #815fa5;
+    border-radius: 50px;
+    background-color: #FFF;
+
+    padding: 15px;
+    
+    text-decoration: none;
+    transition: 500ms;
+}
+
+.btn-branco:hover {
+    color: #FFF;
+    background-color: #BDAFCC;
+    
+    transition: 500ms;
+}
+
+/* CONTEÚDO *******************/
+
+section h2 {
+    font-size: 30px;
+    color: #C4C4C4;
+    margin: 50px;
+}
+
+.btn-roxo {
+    padding: 15px;
+    width: 190px;
+
+    border-radius: 80px;
+    border: #815fa5 1px solid;
+    color: #815fa5;
+
+    text-decoration: none;
+}
+
+
+
+.box-secao {
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box-conteudo {
+    display: flex;
+    margin: 30px 50px;
+}
+
+.box-conteudo a {
+    text-decoration: none;
+    color: #815fa5;
+}
+
+.sobre-mim {
+    width: 40%;
+}
+
+.texto-sm {
+    margin-bottom: 50px;
+}
+
+.lista-sm {
+    width: 40%;
+    margin-left: 50px;
+}
+
+.lista-sm h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #BDAFCC;
+}
+
+.lista-sm li {
+    list-style: none;
+}
+
+/* REDE SOCIAL *****************/
+
+.box-item-rede-social {
+    border-radius: 30px;
+    text-align: center;
+    background-color: #BDAFCC;
+
+    width: 180px;
+    height: 180px;
+
+    padding: 20px;
+    margin-right: 40px;
+
+    transition: 500ms;
+}
+
+.box-item-rede-social:hover {
+    color: #815fa5;
+    background-color: #C4C4C4;
+    
+    transition: 500ms;
+}
+  
+  .link-rede-social {
+    color: #FFF;
+    text-decoration: none;
+}
+  
+  .box-mae-rede-social {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 50px;
+}
+  
+  footer {
+    text-align: center;
+    color: #C4C4C4;
+    padding: 30px;
+}
+  
